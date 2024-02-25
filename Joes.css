@@ -1,0 +1,84 @@
+
+
+body {
+    background-color: #BEACA6;
+    color: #C73864;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FDD835;
+    background-image: url('magician.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    text-align: left;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #EAC7B3;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C73864;
+    margin: 0 10px;
+    transition: color 0.5s ease;
+}
+nav a:hover {
+    color: #BEACA6;
+}
+main {
+    background-color: #EAC7B3;
+    padding: 80px;
+    margin: 40px;
+    border: dotted;
+}
+h2 {
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main li {
+    text-align: center; /
+}
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 600px)
+and (max-width:1200px)
+ {
+    .main-content {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-content {
+        flex-direction: row;
+    }
+}
+video {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
